@@ -37,7 +37,7 @@ echo.
 pause
 echo.
 
-    echo Criar Pastas Huguinho, Zezinho e Zinho.
+    echo Criar Pastas Huguinho, Zezinho e Luizinho.
 
 echo.
 
@@ -99,20 +99,19 @@ echo.
 
 echo.
 
-       mkdir C:\log.txt
-       echo Arquivo Criado.
+       echo inicio do log > C:\log.txt
+
 echo.
 pause
 echo.
 
-    echo Crie Uma Pasta log.txt Dentro de Huguinho, Zezinho e Luizinho:
+    echo Crie Um log.txt Dentro de Huguinho, Zezinho e Luizinho:
 
 echo.
 
-        mkdir C:\Huguinho\log.txt
-        mkdir C:\Luizinho\log.txt
-        mkdir C:\Zezinho\log.txt
-        echo Arquivos Criados.    
+        copy C:\log.txt C:\Huguinho
+        copy C:\log.txt C:\Luizinho
+        copy C:\log.txt C:\Zezinho
         
 echo.
 pause
